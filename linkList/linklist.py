@@ -7,7 +7,7 @@
 # @Software: PyCharm
 
 """
-1. 单链表
+1. 单链表   √   可以利用哨兵优化
 2. 循环链表
 3. 双向链表
 4. 双向循环链表
@@ -85,19 +85,19 @@ class SingleLinkList(object):
         pos = 0
         while True:
             if pos == index - 1:
+                node.next = current.next
                 current.next = node
-                node.nex = current.next.next
                 self.length += 1
                 return
             pos += 1
             current = current.next
 
     # 读    遍历的方法
-    def list(self):
-        if not self.head:
+    def traverse(self, head=None):
+        if not head:
             print("the linklist is not exist or Null !")
             return
-        current = self.head
+        current = head
         while current.next:
             print("the current value is %s" % current.item)
             current = current.next
@@ -127,7 +127,77 @@ class SingleLinkList(object):
             if not flag:
                 print("该数据不存在链表中")
 
+    # 单链表反转
+    # 方法1  ： 利用数组的索引，太浪费空间  略过
+    # 方法2  :  利用三个指针遍历， 挨个节点进行连接
+    # 方法3  ： 利用插入排序法的思想去搞， 这个方法挺好的, 将2-N个依次倒叙
+    # 方法4  ： 链表就是一颗只有一颗叉的树，对于树的问题思想，我们可以用递归进行实现，更加具有面向对象的思想
+    def invert_1(self, head):
+        """浪费空间，省略"""
+        pass
+
+    def invert_2(self, head):
+        """利用三指针的方法，逐个连接就好"""
+        if not head or not head.next:  # 递归的结束条件
+            print("链表不存在或者只有一个节点")
+            self.head = head
+            return head
+        p = head
+        q = head.next
+        head.next = None  # 头变成尾巴   指向空 1 -> none
+        while q:
+            r = q.next  # 指向第三位置【有点像保留数据】p(1) -> 2(q) -> 3(r) -> 4 -> 5
+            q.next = p  # p(1) <- 2(q)  3(r) -> 4 -> 5
+            p, q = q, r
+        head = p
+        self.head = head
+        return self.head
+
+    def invert_3(self, head):
+        """插入排序法思想"""
+        if not head or not head.next:  # 递归的结束条件
+            print("链表不存在或者只有一个节点")
+            self.head = head
+            return head
+        cursor = head.next
+        while cursor.next:
+            # 一： 1 - 2 - 3 - 4 - 5    准备交换 2  3 位置  依次类推
+            q = cursor.next  # 标记 3
+            cursor.next = q.next  # 1 - 2 - 4 - 5   3 - 4 - 5
+            q.next = head.next  # 3 - 2 - 4 - 5   1 - 2 - 4 - 5
+            head.next = q
+        cursor.next = head  # 一定要先成环，不能先断开head
+        head = cursor.next.next  # 新头变成了 5
+        # 断环
+        cursor.next.next = None
+        self.head = head
+        return self.head
+
+    def invert_4(self, head):
+        """递归思想 : 倒序思考   e.g.   A - > B -> C -> D
+           最终结果    ：  D -> C -> B -> A
+           倒数第一步  ：  D -> C -> B    A    当成两个整体对象，  ↑ 连接两个整体
+           倒数第二步  ：  D -> C    B    A    ****************。  ↑ 连接两个整体
+           倒数第三步  ：  D    C    B    A
+           ........
+            """
+        if not head or not head.next:  # 递归的结束条件
+            print("链表不存在或者只有一个节点")
+            self.head = head
+            return head
+        new_head = self.invert_4(head.next)
+        head.next.next = head
+        head.next = None
+        return new_head
+
 
 if __name__ == '__main__':
     singlelist = SingleLinkList()
-
+    singlelist.append(1)
+    singlelist.append(2)
+    singlelist.append(3)
+    singlelist.append(4)
+    singlelist.append(5)
+    singlelist.traverse(head=singlelist.head)
+    new = singlelist.invert_4(head=singlelist.head)  # ok
+    singlelist.traverse(head=singlelist.head)
