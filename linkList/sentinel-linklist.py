@@ -111,4 +111,3 @@ if __name__ == '__main__':
     sentinel.traverse()
     sentinel.revert(head=sentinel.head.next)
     sentinel.traverse()
-
