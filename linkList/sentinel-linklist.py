@@ -106,7 +106,7 @@ class SingleList(object):
 
 if __name__ == '__main__':
     sentinel = SingleList()
-    for i in range(1):
+    for i in range(8):
         sentinel.add(index=i, item=i)
     sentinel.traverse()
     sentinel.revert(head=sentinel.head.next)
