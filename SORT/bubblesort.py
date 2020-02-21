@@ -29,16 +29,16 @@ def bubble_sort(seq):
 
     for j in range(length):
         flag = False  # 表示没有数据进行交换，此时可以退出程序
-        print(f"这是第{j + 1}次冒泡")
+        # print(f"这是第{j + 1}次冒泡")
         # for i in range(length-1): # 末尾的元素已经是排序好的了
         for i in range(length - j - 1):
             if seq[i] > seq[i + 1]:
-                print(f"交换了{seq[i]}和{seq[i + 1]}")
+                # print(f"交换了{seq[i]}和{seq[i + 1]}")
                 seq[i], seq[i + 1] = seq[i + 1], seq[i]
                 flag = True  # 表示这次有数据交换
-            print(seq)
+            # print(seq)
         if not flag:
-            print("结束冒泡排序")
+            # print("结束冒泡排序")
             return
 
 
