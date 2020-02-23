@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1551f3eb-74a3-4f9d-a6b7-95fa23f1aec3" name="Default Changelist" comment="[add]栈和队列">
-      <change beforePath="$PROJECT_DIR$/SORT/bubblesort.py" beforeDir="false" afterPath="$PROJECT_DIR$/SORT/bubblesort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SORT/insertionsort.py" beforeDir="false" afterPath="$PROJECT_DIR$/SORT/insertionsort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SORT/shellsort.py" beforeDir="false" afterPath="$PROJECT_DIR$/SORT/shellsort.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +29,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SORT/bubblesort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
+            <state relative-caret-position="792">
               <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
             </state>
           </provider>
@@ -38,17 +38,43 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SORT/insertionsort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="41" column="14" lean-forward="true" selection-start-line="25" selection-end-line="41" selection-end-column="14" />
+            <state relative-caret-position="902">
+              <caret line="41" column="14" selection-start-line="25" selection-end-line="41" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SORT/shellsort.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="78" column="18" lean-forward="true" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SORT/shellsort.py">
+        <entry file="file://$PROJECT_DIR$/SORT/quicksort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+            <state relative-caret-position="299">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+              <folding>
+                <element signature="e#163#531#1" />
+                <element signature="e#569#811#0" />
+                <element signature="e#849#1177#0" />
+                <element signature="e#1469#1802#0" />
+                <element signature="e#1833#1937#0" />
+                <element signature="e#1971#2098#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SORT/mergesort.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -100,6 +126,9 @@
         <option value="$PROJECT_DIR$/SORT/bubblesort.py" />
         <option value="$PROJECT_DIR$/SORT/insertionsort.py" />
         <option value="$PROJECT_DIR$/SORT/shellsort.py" />
+        <option value="$PROJECT_DIR$/SORT/mergesort_improve.py" />
+        <option value="$PROJECT_DIR$/SORT/quicksort.py" />
+        <option value="$PROJECT_DIR$/SORT/mergesort.py" />
       </list>
     </option>
   </component>
@@ -152,30 +181,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.shellsort">
-    <configuration name="ReversStack" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DataStruct_And_algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stack" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stack/ReversStack.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="bubblesort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.quicksort">
+    <configuration name="mergesort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataStruct_And_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -188,7 +195,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SORT/bubblesort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SORT/mergesort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -197,7 +204,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="insertionsort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mergesort_improve" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataStruct_And_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -210,7 +217,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SORT/insertionsort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SORT/mergesort_improve.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="quicksort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DataStruct_And_algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SORT" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SORT/quicksort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -280,19 +309,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.ReversStack" />
-      <item itemvalue="Python.bubblesort" />
-      <item itemvalue="Python.insertionsort" />
       <item itemvalue="Python.selectionsort" />
       <item itemvalue="Python.shellsort" />
+      <item itemvalue="Python.mergesort" />
+      <item itemvalue="Python.mergesort_improve" />
+      <item itemvalue="Python.quicksort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.quicksort" />
+        <item itemvalue="Python.mergesort_improve" />
+        <item itemvalue="Python.mergesort" />
         <item itemvalue="Python.shellsort" />
         <item itemvalue="Python.selectionsort" />
-        <item itemvalue="Python.insertionsort" />
-        <item itemvalue="Python.bubblesort" />
-        <item itemvalue="Python.ReversStack" />
       </list>
     </recent_temporary>
   </component>
@@ -332,6 +361,9 @@
       <workItem from="1580094395636" duration="19230000" />
       <workItem from="1582162019403" duration="8502000" />
       <workItem from="1582284103669" duration="7842000" />
+      <workItem from="1582293711199" duration="472000" />
+      <workItem from="1582429273739" duration="1382000" />
+      <workItem from="1582445419793" duration="20008000" />
     </task>
     <task id="LOCAL-00001" summary="[add]利用哨兵，优化单链表">
       <created>1576598533613</created>
@@ -358,18 +390,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="256310000" />
+    <option name="totallyTimeSpent" value="278172000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16435432" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16915688" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295964" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994664" weight="0.30044842" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.36098656" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994664" weight="0.2881166" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34753364" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -690,23 +722,101 @@
           <line>82</line>
           <option name="timeStamp" value="236" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SORT/mergesort.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="251" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SORT/mergesort_improve.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="252" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SORT/mergesort_improve.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="253" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SORT/mergesort_improve.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="254" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SORT/mergesort_improve.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="256" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SORT/mergesort_improve.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="257" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SORT/mergesort_improve.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="258" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SORT/mergesort_improve.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="259" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SORT/mergesort_improve.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="260" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SORT/mergesort_improve.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SORT/mergesort_improve.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="262" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DataStruct_And_algorithm$bubblesort.coverage" NAME="bubblesort Coverage Results" MODIFIED="1582199283826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SORT" />
-    <SUITE FILE_PATH="coverage/DataStruct_And_algorithm$selectionsort.coverage" NAME="selectionsort Coverage Results" MODIFIED="1582289419056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SORT" />
     <SUITE FILE_PATH="coverage/DataStruct_And_algorithm$linklist.coverage" NAME="linklist Coverage Results" MODIFIED="1576597642596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkList" />
     <SUITE FILE_PATH="coverage/DataStruct_And_algorithm$cyclelinklist.coverage" NAME="cyclelinklist Coverage Results" MODIFIED="1576862509585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkList" />
     <SUITE FILE_PATH="coverage/DataStruct_And_algorithm$ReversStack.coverage" NAME="ReversStack Coverage Results" MODIFIED="1580110391047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Stack" />
     <SUITE FILE_PATH="coverage/DataStruct_And_algorithm$LRU.coverage" NAME="LRU Coverage Results" MODIFIED="1576941701654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkList" />
+    <SUITE FILE_PATH="coverage/DataStruct_And_algorithm$mergesort.coverage" NAME="mergesort Coverage Results" MODIFIED="1582453186460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SORT" />
+    <SUITE FILE_PATH="coverage/DataStruct_And_algorithm$mergesort_improve.coverage" NAME="mergesort_improve Coverage Results" MODIFIED="1582453409505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SORT" />
+    <SUITE FILE_PATH="coverage/DataStruct_And_algorithm$shellsort.coverage" NAME="shellsort Coverage Results" MODIFIED="1582294111457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SORT" />
+    <SUITE FILE_PATH="coverage/DataStruct_And_algorithm$quicksort.coverage" NAME="quicksort Coverage Results" MODIFIED="1582465472626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SORT" />
+    <SUITE FILE_PATH="coverage/DataStruct_And_algorithm$bubblesort.coverage" NAME="bubblesort Coverage Results" MODIFIED="1582199283826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SORT" />
+    <SUITE FILE_PATH="coverage/DataStruct_And_algorithm$selectionsort.coverage" NAME="selectionsort Coverage Results" MODIFIED="1582289419056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SORT" />
     <SUITE FILE_PATH="coverage/DataStruct_And_algorithm$sentinel_linklist.coverage" NAME="sentinel-linklist Coverage Results" MODIFIED="1578143102945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkList" />
     <SUITE FILE_PATH="coverage/DataStruct_And_algorithm$insertionsort.coverage" NAME="insertionsort Coverage Results" MODIFIED="1582287888180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SORT" />
     <SUITE FILE_PATH="coverage/DataStruct_And_algorithm$dd.coverage" NAME="dd Coverage Results" MODIFIED="1578369440494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linkList" />
-    <SUITE FILE_PATH="coverage/DataStruct_And_algorithm$shellsort.coverage" NAME="shellsort Coverage Results" MODIFIED="1582291617348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SORT" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>l[mid:]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>l[:mid]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>l[;mid]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>l[mid]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>L</expression-string>
         <language-id>Python</language-id>
@@ -729,26 +839,6 @@
       </expression>
       <expression>
         <expression-string>cur.next.item == self.head.next.item</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>cyclelink.length</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>head</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>slow</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>q.next</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -942,17 +1032,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stack/ReversStack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1342">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="e#1564#2062#0" />
-            <element signature="e#2121#2491#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SORT/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
@@ -974,24 +1053,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Stack/ReversStack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1342">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="e#1564#2062#0" />
+            <element signature="e#2121#2491#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SORT/bubblesort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
+        <state relative-caret-position="792">
           <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SORT/insertionsort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="41" column="14" lean-forward="true" selection-start-line="25" selection-end-line="41" selection-end-column="14" />
+        <state relative-caret-position="902">
+          <caret line="41" column="14" selection-start-line="25" selection-end-line="41" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SORT/mergesort_improve.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SORT/mergesort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SORT/shellsort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        <state relative-caret-position="145">
+          <caret line="78" column="18" lean-forward="true" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SORT/quicksort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="e#163#531#1" />
+            <element signature="e#569#811#0" />
+            <element signature="e#849#1177#0" />
+            <element signature="e#1469#1802#0" />
+            <element signature="e#1833#1937#0" />
+            <element signature="e#1971#2098#0" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -40,6 +40,64 @@ def shellSort(arr):
     print(arr)
 
 
+# 加餐   装饰器
+
+
+def w1(func):
+    def inner():
+        print('...验证权限...')
+        func()
+        print(func.__name__)  # 这里是函数本身的名字
+
+    return inner
+
+
+@w1
+def f1():
+    print('f1 called')
+
+
+@w1
+def f2():
+    print('f2 called')
+
+
+def say_hello(country):
+    def wrapper(func):
+        def deco(*args, **kwargs):
+            print(args, kwargs)
+            if country == 'china':
+                print('你好！')
+            elif country == 'america':
+                print('hello')
+            else:
+                return
+            func(*args, **kwargs)
+
+        return deco
+
+    return wrapper
+
+
+@say_hello('china')
+def chinese(name):
+    print(name)
+    print('我来自中国。')
+
+
+@say_hello('america')
+def america(name):
+    print(name)
+    print('I am from America.')
+
+
 if __name__ == '__main__':
-    arr = [49, 38, 65, 97, 76, 13, 27, 49, 55, 4]
+    # arr = [49, 38, 65, 97, 76, 13, 27, 49, 55, 4]
     # shellSort(arr)
+    # f1()
+    # print(f1.__name__)  # 这里是装饰器里  inner    函数名字被修改了
+    # f2()
+
+    america(name="american")
+    print('-' * 20)
+    chinese(name="china")
