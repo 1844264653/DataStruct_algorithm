@@ -32,7 +32,7 @@ class MyQueue:
     # 队尾元素
     def getBack(self):
         if not self.isEmpty():
-            return self.arr[self.rear-1]
+            return self.arr[self.rear - 1]
         print("队列为空！")
 
     # 队首元素

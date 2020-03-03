@@ -35,13 +35,28 @@ def quicksort(l, left, right):
         quicksort(l, position + 1, right)
 
 
-def partition(l, left, right):
+# def partition(l, left, right):  # 从大到小排
+#     # 基准元素
+#     x = l[right]  # 这里使用数组的最尾端元素
+#     index = left  # 基准元素前面的元素做交换
+#     for i in range(left, right):
+#         # print(f"i,index:{i},{index}")
+#         if l[i] > x:
+#             l[index], l[i] = l[i], l[index]
+#             index += 1
+#         # print(l)
+#     l[index], l[right] = l[right], l[index]
+#     # print(l)
+#     return index
+
+
+def partition(l, left, right):  # 从小到大排序
     # 基准元素
     x = l[right]  # 这里使用数组的最尾端元素
     index = left  # 基准元素前面的元素做交换
     for i in range(left, right):
         # print(f"i,index:{i},{index}")
-        if l[i] > x:
+        if l[i] <= x:
             l[index], l[i] = l[i], l[index]
             index += 1
         # print(l)
@@ -83,7 +98,7 @@ def find_top_k(arr, k):
 
 if __name__ == '__main__':
     l = [8, 10, 2, 3, 6, 1, 5]
-    # sort(l, 0, len(l) - 1)
-    # print(l)
-    for i in range(1, 6):
-        find_top_k(arr=l, k=i)
+    quicksort(l, 0, len(l) - 1)
+    print(l)
+    # for i in range(1, 6):
+    #     find_top_k(arr=l, k=i)

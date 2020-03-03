@@ -62,5 +62,5 @@ class MyQueue:
             print("队列为空， 出列失败")
             return False
         self.pHead = self.pHead.next
-        if self.isEmpty(): # 这里要注意下一个元素的情况下出列
-            self.pEnd=self.pHead = None
+        if self.isEmpty():  # 这里要注意下一个元素的情况下出列
+            self.pEnd = self.pHead = None
