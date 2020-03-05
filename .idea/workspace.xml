@@ -4,14 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/SORT/countsort.py" line="10" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1551f3eb-74a3-4f9d-a6b7-95fa23f1aec3" name="Default Changelist" comment="[add]栈和队列">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUEUE/arrayQueue.py" beforeDir="false" afterPath="$PROJECT_DIR$/QUEUE/arrayQueue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUEUE/linkQueue.py" beforeDir="false" afterPath="$PROJECT_DIR$/QUEUE/linkQueue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SORT/quicksort.py" beforeDir="false" afterPath="$PROJECT_DIR$/SORT/quicksort.py" afterDir="false" />
-    </list>
+    <list default="true" id="1551f3eb-74a3-4f9d-a6b7-95fa23f1aec3" name="Default Changelist" comment="[add]栈和队列" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SORT/quicksort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="1144">
               <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
-              <folding>
-                <element signature="e#1469#1802#0" />
-                <element signature="e#1833#1937#0" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -51,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/时间空间复杂度分析-上.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-1747" />
+              <first_editor />
               <second_editor />
             </state>
           </provider>
@@ -68,12 +57,6 @@
                 <element signature="e#316#398#0" />
                 <element signature="e#444#510#0" />
                 <element signature="e#551#611#0" />
-                <element signature="e#655#741#0" />
-                <element signature="e#786#872#0" />
-                <element signature="e#878#886#0" />
-                <element signature="e#1183#1278#0" />
-                <element signature="e#1222#1256#0" />
-                <element signature="e#1332#1376#0" />
               </folding>
             </state>
           </provider>
@@ -109,14 +92,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/QUEUE/linkQueue.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="704">
               <caret line="66" selection-start-line="66" selection-end-line="66" />
               <folding>
                 <element signature="n#!!doc" />
                 <element signature="e#157#299#1" />
                 <element signature="e#318#387#0" />
                 <element signature="e#349#387#0" />
-                <element signature="e#409#1331#0" />
                 <element signature="e#437#479#0" />
                 <element signature="e#523#548#0" />
                 <element signature="e#589#702#0" />
@@ -125,7 +107,6 @@
                 <element signature="e#837#881#0" />
                 <element signature="e#929#1091#0" />
                 <element signature="e#988#1036#0" />
-                <element signature="e#1133#1331#0" />
                 <element signature="e#1164#1208#0" />
               </folding>
             </state>
@@ -135,7 +116,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SORT/bucketsort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
+            <state relative-caret-position="1408">
               <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
             </state>
           </provider>
@@ -144,7 +125,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SORT/countsort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1019">
+            <state relative-caret-position="1034">
               <caret line="47" selection-start-line="47" selection-end-line="47" />
             </state>
           </provider>
@@ -154,7 +135,7 @@
         <entry file="file://$PROJECT_DIR$/SORT/Radixsort.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="211">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -162,7 +143,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/random.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
+            <state relative-caret-position="16346">
               <caret line="751" column="21" selection-start-line="751" selection-start-column="21" selection-end-line="751" selection-end-column="21" />
             </state>
           </provider>
@@ -243,7 +224,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -251,15 +231,11 @@
               <item name="DataStruct_And_algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataStruct_And_algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DataStruct_And_algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStruct_And_algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="SORT" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -470,6 +446,7 @@
       <workItem from="1582969935534" duration="3481000" />
       <workItem from="1583163370316" duration="408000" />
       <workItem from="1583231311048" duration="13150000" />
+      <workItem from="1583374309942" duration="601000" />
     </task>
     <task id="LOCAL-00001" summary="[add]利用哨兵，优化单链表">
       <created>1576598533613</created>
@@ -496,12 +473,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="296395000" />
+    <option name="totallyTimeSpent" value="296996000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08644611" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.086979724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -522,9 +499,9 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="aiXcoder" order="3" weight="0.32977587" />
       <window_info anchor="right" id="SciView" order="4" sideWeight="0.49887893" weight="0.32977587" />
-      <window_info anchor="right" id="Database" order="5" sideWeight="0.4674888" visible="true" weight="0.23585913" />
+      <window_info anchor="right" id="Database" order="5" sideWeight="0.46636772" visible="true" weight="0.23585913" />
       <window_info anchor="right" id="Word Book" order="6" side_tool="true" weight="0.32977587" />
-      <window_info anchor="right" id="leetcode" order="7" sideWeight="0.53251123" side_tool="true" visible="true" weight="0.23585913" />
+      <window_info anchor="right" id="leetcode" order="7" sideWeight="0.5336323" side_tool="true" visible="true" weight="0.23585913" />
       <window_info anchor="right" id="Translation Assistant" order="8" weight="0.32977587" />
     </layout>
   </component>
@@ -1185,17 +1162,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SORT/mergesort.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/typing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        <state relative-caret-position="284">
+          <caret line="1873" column="6" selection-start-line="1873" selection-start-column="6" selection-end-line="1873" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-1319365088/itertools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="53" column="39" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SORT/quicksort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/时间空间复杂度分析-上.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1747" />
+          <first_editor />
           <second_editor />
         </state>
       </provider>
@@ -1217,69 +1208,6 @@
             <element signature="e#1222#1256#0" />
             <element signature="e#1332#1376#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/QUEUE/linkQueue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-          <folding>
-            <element signature="n#!!doc" />
-            <element signature="e#157#299#1" />
-            <element signature="e#318#387#0" />
-            <element signature="e#349#387#0" />
-            <element signature="e#409#1331#0" />
-            <element signature="e#437#479#0" />
-            <element signature="e#523#548#0" />
-            <element signature="e#589#702#0" />
-            <element signature="e#650#682#0" />
-            <element signature="e#747#793#0" />
-            <element signature="e#837#881#0" />
-            <element signature="e#929#1091#0" />
-            <element signature="e#988#1036#0" />
-            <element signature="e#1133#1331#0" />
-            <element signature="e#1164#1208#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/random.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="751" column="21" selection-start-line="751" selection-start-column="21" selection-end-line="751" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SORT/quicksort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
-          <folding>
-            <element signature="e#1469#1802#0" />
-            <element signature="e#1833#1937#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SORT/bucketsort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/typing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="1873" column="6" selection-start-line="1873" selection-start-column="6" selection-end-line="1873" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-1319365088/itertools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="53" column="39" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -1308,17 +1236,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/QUEUE/linkQueue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="n#!!doc" />
+            <element signature="e#157#299#1" />
+            <element signature="e#318#387#0" />
+            <element signature="e#349#387#0" />
+            <element signature="e#437#479#0" />
+            <element signature="e#523#548#0" />
+            <element signature="e#589#702#0" />
+            <element signature="e#650#682#0" />
+            <element signature="e#747#793#0" />
+            <element signature="e#837#881#0" />
+            <element signature="e#929#1091#0" />
+            <element signature="e#988#1036#0" />
+            <element signature="e#1164#1208#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SORT/bucketsort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1408">
+          <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SORT/countsort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1019">
+        <state relative-caret-position="1034">
           <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16346">
+          <caret line="751" column="21" selection-start-line="751" selection-start-column="21" selection-end-line="751" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SORT/mergesort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SORT/Radixsort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
