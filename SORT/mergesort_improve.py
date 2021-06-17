@@ -14,9 +14,10 @@ def sort(l):
     if len(l) <= 1:
         return l
     mid = len(l) // 2  # 从中点进行拆分数组
-    # left = sort(l[:mid])
-    # right = sort(l[mid:])
-    return merge(l[:mid], l[mid:])
+    left = sort(l[:mid])
+    right = sort(l[mid:])
+    # return merge(l[:mid], l[mid:])
+    return merge(left, right)
 
 
 def merge(left, right):
@@ -37,5 +38,5 @@ def merge(left, right):
 
 
 if __name__ == '__main__':
-    l = [1, 5, 6, 2, 3, 4]
+    l = [1, 5, 6, 2, 3, 4, 0, 11, 50]
     print(sort(l))

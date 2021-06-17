@@ -58,9 +58,9 @@ def bucketsort(obj_arr, bucketsize):
     for per_bucket in bucket_lists:
         if not per_bucket:
             break
-        print(f"排序前{per_bucket}")
+        # print(f"排序前{per_bucket}")
         quicksort.quicksort(per_bucket, 0, len(per_bucket) - 1)  # 注意  这里的快排是从大到小排序的
-        print(f"排序后{per_bucket}")
+        # print(f"排序后{per_bucket}")
         count += 1
     print(count)
 

@@ -46,7 +46,16 @@ def radix_sort(s):
         i += 1
 
 
+#  求  给定数字n以内所有正整数二进制1的个数 eg  n = 5  s = [0,1,1,2,1,2]
+def NumberOf1(n):
+    s = []
+    for i in range(0, n + 1):
+        s.append(bin(i).count("1"))
+    return s
+
+
 if __name__ == '__main__':
-    a = [334, 5, 67, 345, 7, 345345, 99, 4, 23, 78, 45, 1, 3453, 23424]
-    radix_sort(a)
-    print(a)
+    # a = [334, 5, 67, 345, 7, 345345, 99, 4, 23, 78, 45, 1, 3453, 23424]
+    # radix_sort(a)
+    # print(a)
+    print(NumberOf1(5))

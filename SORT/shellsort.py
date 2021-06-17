@@ -92,12 +92,12 @@ def america(name):
 
 
 if __name__ == '__main__':
-    # arr = [49, 38, 65, 97, 76, 13, 27, 49, 55, 4]
-    # shellSort(arr)
+    arr = [49, 38, 65, 97, 76, 13, 27, 49, 55, 4]
+    shellSort(arr)
     # f1()
     # print(f1.__name__)  # 这里是装饰器里  inner    函数名字被修改了
     # f2()
 
-    america(name="american")
-    print('-' * 20)
-    chinese(name="china")
+    # america(name="american")
+    # print('-' * 20)
+    # chinese(name="china")

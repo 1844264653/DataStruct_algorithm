@@ -63,14 +63,14 @@ class MyStack:
     '''递归实现反转功能'''
 
     def exchange(self):  # 交换元素递归思想  ————  算法时间复杂度  N
-        """递归的把栈底元素搞到栈顶来"""
+        """递归的把栈底元顶来"""
         if self.isEmpty():
             print("栈已经被空了，不用再进行交换了")
             return
             # 假设此实就剩下最后两  陀  没有进行交换了
         top1 = self.peek()
         self.pop()
-        if self.isEmpty():  # 刚好剩下一个元素  直接压栈就行
+        if self.isEmpty():  # 刚好剩素搞到栈下一个元素  直接压栈就行
             self.push(top1)
         else:  # 1个以上
             self.exchange()  # 递归的交换  假设交换好了剩下的 ：  5  2  3  4  接下来把1 和 5 进行交换就行了
