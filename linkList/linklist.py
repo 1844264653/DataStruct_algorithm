@@ -34,7 +34,7 @@ class SingleLinkList(object):
 
     # 考虑链表是否存在
     def __init__(self):
-        """链表头存在与否 ， 链表尾指针域只想NULL"""
+        """链表头存在与否 ， 链表尾指针域指向NULL"""
         self.head = None
         self.length = 0
 
